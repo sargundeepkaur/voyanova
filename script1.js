@@ -20,20 +20,6 @@ if (darkBtn) {
 
 }
 
-// CLOCK
-const clock = document.getElementById("clock");
-
-function updateClock() {
-    if (clock) {
-        const now = new Date();
-        clock.innerHTML = now.toLocaleTimeString();
-    }
-}
-
-setInterval(updateClock, 1000);
-updateClock();
-
-
 
 // SCROLL PROGRESS BAR
 const progressBar = document.getElementById("progressBar");
@@ -104,9 +90,9 @@ if (quoteText) {
 }
 
 
-// ==========================
+
 // FAVOURITE BUTTON
-// ==========================
+
 
 const favButtons = document.querySelectorAll(".fav-btn");
 
@@ -126,10 +112,7 @@ favButtons.forEach((btn) => {
 
 });
 
-
-// ==========================
 // BACK TO TOP BUTTON FIX
-// ==========================
 
 const topBtn = document.getElementById("topBtn");
 
